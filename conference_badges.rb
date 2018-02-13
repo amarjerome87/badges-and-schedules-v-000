@@ -23,6 +23,6 @@ end
 
 def printer(array)
 
-   return batch_badge_creator(array)
-  return assign_rooms(array)
+   print batch_badge_creator(array)
+  print  assign_rooms(array)
 end
