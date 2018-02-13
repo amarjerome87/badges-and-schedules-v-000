@@ -30,5 +30,5 @@ def printer(array)
 
  array_rooms.each {|room| puts room}
 
-binding.pry
+#binding.pry
 end
