@@ -26,5 +26,5 @@ def printer(array)
 
  array_badge.each {|array| puts array}
 
-
+binding.pry
 end
