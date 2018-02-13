@@ -24,11 +24,11 @@ end
 def printer(array)
  array_badge = batch_badge_creator(array)
 
- array_room = assign_rooms(array)
+ array_rooms = assign_rooms(array)
 
  array_badge.each {|array| puts array}
 
- array_room.each {|room| puts room}
+ array_rooms.each {|room| puts room}
 
 binding.pry
 end
